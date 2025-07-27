@@ -1,0 +1,58 @@
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1ch;
+}
+
+.break {
+  height: 2px;
+  width: 100;
+  background-color: white;
+  margin: 1rem;
+}
+
+.summary {
+  display: flex;
+  font-size: x-large;
+  padding-left: 0.75ch;
+  padding-top: 0.75ch;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+.topic {
+  padding-inline: 2vw;
+}
+
+.topic.active {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pics {
+  max-width: 100dvw;
+  width: 15em;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.kc-content,
+.bruno-content {
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4ch;
+}
+
+.active-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 9em;
+  padding-inline: 4ch;
+}
+
+body {
+  overflow-x: hidden;
+}

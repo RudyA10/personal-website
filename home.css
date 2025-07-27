@@ -14,6 +14,9 @@ main img {
   height: 30vh;
 }
 
+main {
+  border: 0.5vh solid black;
+}
 p {
   margin: 3vh;
   display: flex;
@@ -27,6 +30,7 @@ p {
   padding: 2vh;
   margin: 4vw;
   background-color: #ffb81c;
+  border: 0.5vh solid black;
 }
 
 .intro {
