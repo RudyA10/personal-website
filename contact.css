@@ -1,19 +1,42 @@
-main {
+.form {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 2fr 1fr;
+
+  .namelabel {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+
+  .nameinput {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+
+  .emaillabel {
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+
+  .emailinput {
+    grid-row: 5 / 6;
+    grid-column: 2 / 3;
+  }
+
+  .button {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
+  }
 }
 
 main h1 {
-  grid-row: 1 / 1;
+  grid-row: 1 / 2;
   grid-column: 2 / 3;
+  justify-self: center;
+  padding-top: 1.5vh;
 }
 
-input.namelabel {
-  grid-row: 2 / 3;
-  grid-column: 2 / span 1;
-}
-
-input.nameinput {
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
+.line {
+  margin: 1rem;
 }
